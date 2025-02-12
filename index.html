@@ -18,18 +18,18 @@
             height: 100vh;
             overflow: auto; /* Появляется прокрутка, если содержимое больше экрана */
         }
-        object {
+        iframe {
             width: 100%;
-            height: auto; /* Высота автоматически подстраивается */
-            min-height: 100%; /* Минимальная высота 100% для масштабирования */
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
     <div class="pdf-container">
-        <object data="https://ivanbeleychev.github.io/Project-Information-Sheet/Project%20Information%20Sheet.pdf" type="application/pdf">
+        <iframe src="https://ivanbeleychev.github.io/Project-Information-Sheet/Project%20Information%20Sheet.pdf" type="application/pdf">
             Ваш браузер не поддерживает отображение PDF.
-        </object>
+        </iframe>
     </div>
 </body>
 </html>
